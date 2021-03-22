@@ -17,7 +17,7 @@ describe 'Login com cadastro', :login3 do
 
     it 'cadastro com sucesso' do
         within('#signup') do
-            find('input[name=username]').set 'fernando'
+            find('input[name=username]').set 'Leandro'
             find('input[name=password]').set '123456'
             click_link 'Criar Conta'
         end
